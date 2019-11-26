@@ -1,0 +1,6 @@
+---
+# tasks file for sadness
+- name: Gather facts for sadness
+  setup:
+    gather_subset: "!all,!min,distribution,distribution_major_version"
+

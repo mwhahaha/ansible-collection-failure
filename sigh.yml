@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  gather_facts: false
+  collections:
+    - mwhahaha.failure
+  tasks:
+    - name: orly
+      include_role:
+          name: sadness
+
